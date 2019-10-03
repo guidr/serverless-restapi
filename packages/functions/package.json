@@ -1,0 +1,26 @@
+{
+  "name": "@restapi/functions",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "scripts": {
+    "bootstrap": "serverless dynamodb install",
+    "dev": "IS_OFFLINE=true serverless offline start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@hapi/joi": "^16.1.5",
+    "@restapi/core": "^1.0.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-plugin-node": "^10.0.0",
+    "serverless": "^1.53.0",
+    "serverless-dotenv-plugin": "^2.1.1",
+    "serverless-dynamodb-local": "^0.2.38",
+    "serverless-offline": "^6.0.0-alpha.41"
+  }
+}

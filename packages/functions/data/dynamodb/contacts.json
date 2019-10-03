@@ -1,0 +1,15 @@
+[
+  {
+    "Id": "e0fbd008-731e-440f-b63c-e2d3fd2f9602",
+    "FirstName": "Guilherme",
+    "LastName": "Dalla Rosa",
+    "Email": "gui_dr@msn.com",
+    "MarketingPreferences": [
+      {
+        "BrandName": "example.com Newsletter",
+        "Channel": "Email",
+        "OptInStatus": true
+      }
+    ]
+  }
+]

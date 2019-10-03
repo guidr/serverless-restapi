@@ -1,0 +1,21 @@
+{
+  "name": "@restapi/core",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=8.10.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "aws-sdk": "^2.540.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-plugin-node": "^10.0.0"
+  }
+}
